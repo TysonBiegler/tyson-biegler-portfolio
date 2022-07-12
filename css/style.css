@@ -125,13 +125,21 @@ select {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* .main-content {
+
+.about-contact {
+  display: flex;
+  flex-direction: column;
+}
+.about-contact p {
+  display: flex;
+  flex-direction: column;
+}
+.main-content {
   padding-left: 270px;
-} */
+}
 
 .container {
   max-width: 1100px;
-  /* max-width seems like its off */
   width: 100%;
   margin: auto;
 }
@@ -1095,10 +1103,13 @@ body.dark .section-title h2,
 body.dark .home .intro h1,
 body.dark .aside .logo a,
 body.dark .aside .nav li a {
-  
-  background-color: #222222;
   color: #ffffff;
 }
+
+body.dark .certification .certification-item-inner {
+  background-color: #222222;
+}
+
 body.dark .aside .copyright-text,
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .contact .contact-info-item p,
