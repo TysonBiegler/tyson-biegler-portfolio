@@ -998,7 +998,8 @@ select {
   text-transform: capitalize;
 }
 
-.certification .certification-item-inner .certification-info .certification-tags a {
+.certification .certification-item-inner .certification-info .certification-tags a,
+.certification .certification-item-inner .certification-info .certification-tags .tag-text {
   text-decoration: none;
   font-weight: 600;
 }
