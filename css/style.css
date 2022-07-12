@@ -417,6 +417,16 @@ select {
   transition: all 0.3s ease;
 }
 
+
+a:link {
+    color:#222222
+}
+a:visited {
+    color:#222222
+}
+
+
+
 .home .intro .social-links a:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -1089,6 +1099,13 @@ body.dark .service .service-item .service-item-inner,
 body.dark .about .about-content .timeline,
 body.dark .aside {
   background-color: #222222;
+}
+
+body.dark a:link {
+  color:#ffffff
+}
+body.dark a:visited {
+  color: #ffffff
 }
 
 body.dark .contact .contact-info-item h4,
