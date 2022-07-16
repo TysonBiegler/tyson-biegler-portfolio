@@ -628,6 +628,20 @@ a:visited {
   margin: 0;
 }
 
+.about .experience-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.experience-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 300px;
+}
+
 /* Service section */
 .service {
   overflow-y: auto;
@@ -693,6 +707,8 @@ a:visited {
   margin: 0;
 }
 
+
+
 /* Portfolio section */
 
 .portfolio .container {
@@ -726,7 +742,6 @@ a:visited {
   max-width: 33.33%;
   margin-bottom: 30px;
 }
-
 
 .portfolio .portfolio-item.hide {
   display: none;

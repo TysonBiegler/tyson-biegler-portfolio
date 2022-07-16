@@ -1,0 +1,32 @@
+/*Google fonts*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap");
+/* General Style */
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    margin: 30px 80px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+}
