@@ -628,11 +628,17 @@ a:visited {
   margin: 0;
 }
 
-.about .experience-container {
+.about .row .experience-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   justify-content: center;
+  padding-bottom: 80px;
+  overflow-y: auto;
 }
+
+
 
 .experience-container{
   display: flex;
