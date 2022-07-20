@@ -1238,7 +1238,9 @@ body.dark .shadow-dark {
     max-width: 50%;
   }
 }
-@media (max-width: 1024px) {
+
+
+@media screen and (max-width: 1024px) {
   .about .about-content .skills,
   .about .about-content .personal-info {
     -ms-flex: 0 0 100%;
@@ -1246,7 +1248,7 @@ body.dark .shadow-dark {
     max-width: 100%;
   }
 }
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .contact .contact-form .col-6,
   .certification .certification-item,
   .service .service-item,
@@ -1262,10 +1264,11 @@ body.dark .shadow-dark {
     margin-bottom: 10px;
   }
 }
-@media (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .portfolio .portfolio-item {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 }
+
