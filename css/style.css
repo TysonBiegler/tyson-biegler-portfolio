@@ -1217,12 +1217,17 @@ body.dark .shadow-dark {
   }
   .aside.open {
     left: 0px;
+    
+    
   }
   .section {
     left: 0;
   }
   .section.open {
     left: 270px;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    height: 100%;
   }
   .about .about-content .personal-info .info-item p span {
     display: block;
@@ -1239,8 +1244,7 @@ body.dark .shadow-dark {
   }
 }
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) {
   .about .about-content .skills,
   .about .about-content .personal-info {
     -ms-flex: 0 0 100%;
@@ -1264,7 +1268,7 @@ body.dark .shadow-dark {
     margin-bottom: 10px;
   }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) { 
   .portfolio .portfolio-item {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
