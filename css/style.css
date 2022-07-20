@@ -1228,6 +1228,7 @@ body.dark .shadow-dark {
     filter: blur(10px);
     -webkit-filter: blur(10px);
     height: 100%;
+    padding-bottom: 30px;
   }
   .about .about-content .personal-info .info-item p span {
     display: block;
