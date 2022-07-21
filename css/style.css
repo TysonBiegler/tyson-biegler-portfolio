@@ -30,6 +30,11 @@ textarea,
 select {
   font-family: "Montserrat", sans-serif;
 }
+
+.small-h5 {
+  display: none;
+}
+
 .section {
   overflow-y: auto;
   background-color: #f2f2fc;
@@ -146,9 +151,9 @@ select {
 
 .shadow-dark {
   -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-  
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
+
 .btn {
   font-size: 16px;
   font-family: "Rubik", sans-serif;
@@ -376,8 +381,8 @@ select {
 }
 
 .home .intro img {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   display: inline-block;
   border: 8px solid #ffffff;
@@ -1217,8 +1222,6 @@ body.dark .shadow-dark {
   }
   .aside.open {
     left: 0px;
-    
-    
   }
   .section {
     left: 0;
@@ -1235,6 +1238,7 @@ body.dark .shadow-dark {
     margin-left: 0;
   }
 }
+
 @media (max-width: 991px) {
   .certification .certification-item,
   .portfolio .portfolio-item,
@@ -1259,21 +1263,32 @@ body.dark .shadow-dark {
   .service .service-item,
   .about .about-content .experience,
   .about .about-content .education {
-    /* .about .about-content .skills,
-  .about .about-content .personal-info */
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
+
+  .file-type {
+    display: none;
+  }
+
+  .big-h5 {
+    display: none;
+  }
+
+  .small-h5 {
+    display: inline;
+  }
+
   .portfolio .portfolio-filter button {
     margin-bottom: 10px;
   }
 }
-@media screen and (max-width: 575px) { 
+
+@media only screen and (max-width: 600px) { 
   .portfolio .portfolio-item {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 }
-
