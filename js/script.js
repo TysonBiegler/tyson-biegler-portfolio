@@ -85,7 +85,7 @@ function changeItem() {
     imgSrc = portfolioItems[itemIndex].querySelector(".portfolio-img img").getAttribute("src");
     lightboxImg.src = imgSrc;
     lightboxText.innerHTML = portfolioItems[itemIndex].querySelector("h4").innerHTML;
-    lightboxCounter.innerHTML = (itemIndex+1) + "of" + totalPorfolioItem;
+    lightboxCounter.innerHTML = (itemIndex + 1) + "of" + totalPorfolioItem;
 }
 
 // close lightbox
