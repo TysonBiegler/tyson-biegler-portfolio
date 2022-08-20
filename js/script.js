@@ -1,4 +1,4 @@
-console.log("I hope you have enjoyed my portfolio")
+console.log("Consider hiring me for your next project!")
 
 window.addEventListener("load", function () {
     document.querySelector(".preloader").classList.add("opacity-0");
@@ -151,7 +151,6 @@ function updateNav(element) {
             navList[i].querySelector("a").classList.add("active");
         }
     }
-    // console.log(element.getAttribute("href").split("#")[1])
 }
 
 document.querySelector(".hire-me").addEventListener("click", function () {

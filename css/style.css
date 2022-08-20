@@ -282,6 +282,7 @@ select {
   bottom: 0;
   right: 0;
 }
+
 .aside .nav-toggler {
   height: 40px;
   width: 40px;
@@ -311,6 +312,7 @@ select {
 }
 .aside .nav-toggler.open span {
   background-color: transparent;
+
 }
 
 .aside .nav-toggler span::before {
@@ -1238,6 +1240,7 @@ body.dark .shadow-dark {
     display: block;
     margin-left: 0;
   }
+
 }
 
 @media (max-width: 991px) {
@@ -1293,3 +1296,5 @@ body.dark .shadow-dark {
     max-width: 100%;
   }
 }
+
+
