@@ -782,15 +782,21 @@ a:visited {
 
 .portfolio .portfolio-item-inner {
   border: 6px solid #fdf9ff;
+  background: #fdf9ff;
   border-radius: 10px;
-  overflow: hidden;
+  overflow:hidden;
   cursor: pointer;
   position: relative;
+  height: 345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .portfolio .portfolio-item-inner .portfolio-img img {
-  width: 100%;
+  max-width: 100%;
   display: block;
 }
+
 .portfolio .portfolio-item .portfolio-info {
   position: absolute;
   left: 0;
