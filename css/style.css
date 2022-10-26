@@ -447,6 +447,7 @@ a:visited {
 .about {
   overflow-y: auto;
 }
+
 .about .about-content {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
@@ -577,6 +578,7 @@ a:visited {
   font-weight: 700;
   color: #302e4d;
 }
+
 .about .about-content .timeline-box {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
@@ -628,9 +630,19 @@ a:visited {
 .about .about-content .timeline .timeline-title {
   font-weight: 700;
   font-size: 18px;
-  margin-bottom: 15px;
   text-transform: capitalize;
   color: #302e4d;
+}
+
+.educationLogo {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.educationNameContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 .about .about-content .timeline .timeline-text {
   font-size: 16px;
