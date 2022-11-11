@@ -1,10 +1,10 @@
-console.log("Consider hiring me for your next project!")
+console.log("Let me work with you on your next project!")
 
 window.addEventListener("load", function () {
     document.querySelector(".preloader").classList.add("opacity-0");
 
     setTimeout(function(){
-        document.querySelector(".preloader").style.display = "none";   
+        document.querySelector(".preloader").style.display = "none";
     },1000)
 })
 
@@ -36,10 +36,10 @@ for (let i = 0; i < totalFilterBtn; i++) {
                 portfolioItems[k].classList.add("show");
             }
             }
-        
+
         })
 }
-    
+
 
 // Portfolio Lightbox
 
@@ -103,7 +103,7 @@ const nav = document.querySelector(".nav"),
     allSection = document.querySelectorAll(".section"),
     totalSection = allSection.length;
 
-for (let i = 0; i < totalNavList; i++){ 
+for (let i = 0; i < totalNavList; i++){
     const a = navList[i].querySelector("a")
     a.addEventListener("click", function () {
         // remove back section class
@@ -113,7 +113,7 @@ for (let i = 0; i < totalNavList; i++){
             if (navList[j].querySelector("a").classList.contains("active")) {
                 // Add back section class
                 addBackSectionClass(j)
-                
+
             }
 
 
