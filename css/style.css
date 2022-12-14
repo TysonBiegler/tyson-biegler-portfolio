@@ -177,6 +177,7 @@ select {
   display: none !important;
 }
 
+/* loading spinner */
 .preloader {
   background-color: #222222;
   position: fixed;
@@ -799,8 +800,10 @@ a:visited {
   overflow:hidden;
   cursor: pointer;
   position: relative;
-  height: 345px;
+  /* height: 335px; */
+  height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -1310,7 +1313,7 @@ body.dark .shadow-dark {
   }
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 600px) {
   .portfolio .portfolio-item {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
