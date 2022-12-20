@@ -807,6 +807,11 @@ a:visited {
   justify-content: center;
   align-items: center;
 }
+
+.portfolio .portfolio-item-inner h4 {
+  padding: 5px 0px;
+  color: #393939;
+}
 .portfolio .portfolio-item-inner .portfolio-img img {
   max-width: 100%;
   display: block;
