@@ -14,7 +14,6 @@ function setActiveStyle(color) {
 
 
 //Body color
-
 const bodySkin = document.querySelectorAll(".body-skin"),
     totalBodySkin = bodySkin.length;
     for(let i = 0; i < totalBodySkin; i++){
