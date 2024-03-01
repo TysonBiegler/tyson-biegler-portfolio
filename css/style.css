@@ -373,13 +373,13 @@ select {
 }
 
 /* Home secton */
-.home {
+/* .home {
   min-height: 100vh;
   display: -ms-flexbox;
   display: flex;
-}
+} */
 
-.home .intro {
+/* .home .intro {
   padding-top: 20%;
   text-align: center;
   display: flex;
@@ -387,16 +387,25 @@ select {
   justify-content: flex-start;
   align-items: center;
   height: 100vh;
+} */
+.profile_image {
+  border-radius: 50%;
+  width: 150px;
+  border: double 5px transparent;
+  background-image: linear-gradient(white, white),
+    radial-gradient(circle at top left, #ec1839, #2196f3);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  box-sizing: border-box;
 }
-
-.home .intro img {
+/* .home .intro img {
   height: 300px;
   width: 300px;
   border-radius: 50%;
   border: 8px solid #ffffff;
-}
+} */
 
-.home .intro h1 {
+/* .home .intro h1 {
   font-size: 30px;
   color: #302e4d;
   font-family: "Rubik", sans-serif;
@@ -410,7 +419,7 @@ select {
   margin: 0;
   line-height: 22px;
   color: #504e70;
-}
+} */
 
 .social-links {
   margin-bottom: 20px;
